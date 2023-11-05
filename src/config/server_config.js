@@ -5,5 +5,7 @@ dotenv.config();
 
 module.exports = {
 
-    PORT: process.env.PORT
+    PORT: process.env.PORT,
+    PASSWORD: process.env.PASSWORD,
+    GMAIL: process.env.GMAIL
 }
